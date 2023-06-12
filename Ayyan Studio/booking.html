@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--booking page.."booking.html" -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-home.css">
+  <title>Booking</title>
+
+</head>
+
+<body>
+  <div>
+    <img class="main-logo" src="./image/kclogo white 2.png"/>
+  </div>
+
+
+  <div class="movie-container">
+    <label style="font-size: 1em;">Pick a movie:</label>
+      <select id="movie">
+      <option value="16">09:00 Love Of My Life ($16)</option>
+      <option value="16">10:00 Love Of My Life ($16)</option>
+      <option value="12">12:00 Karan Arjun 2 ($12)</option>
+      <option value="12">14:00 Karan Arjun 2 ($12)</option>
+      <option value="9">13:00 CBR ($9)</option>
+      <option value="10">14:00 VP'S ($10)</option>
+      <option value="10">16:00 VP'S ($10)</option>
+      <option value="14">16:00 Demon Slayer($14)</option>
+      <option value="18">19:00 One Piece($15)</option>
+      <option value="11">20:00 Naruto ($11)</option>
+      <option value="11">24:00 Naruto ($11)</option>
+      <option value="10">21:00 Dragon Ball Z ($10)</option>
+      <option value="15">22:00 Ghar 2 ($15)</option>
+      <option value="15">24:00 Ghar 2 ($15)</option>
+      <option value="19">23:30 Bhau 2 ($19)</option>
+    </select>
+  </div>
+
+  <ul class="showcase">
+    <li>
+      <div class="seat"></div>
+      <small class="status" style="font-size: 1em;">N/A</small>
+    </li>
+    <li>
+      <div class="seat selected"></div>
+      <small class="status" style="font-size: 1em;">Selected</small>
+    </li>
+    <li>
+      <div class="seat occupied"></div>
+      <small class="status" style="font-size: 1em;">Occupied</small>
+    </li>
+  </ul>
+
+  <div class="container">
+    <div class="screen"></div>
+
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+    </div>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+    </div>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+  </div>
+
+  <p class="text" style="font-size: 1em;margin:0px 0px 15px 0px">
+    You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span>
+  </p>
+  <div>
+  <button id="confirmButton" type="button" style="vertical-align:middle">Confirm Seats</button>
+  </div>
+
+  <div>
+    <a href="./playing.html">
+      <button type="button" style="vertical-align:middle"><span>Back to Movies</span></button>
+    </a>
+  </div>
+
+
+  <script>
+    var count = 0;
+    var seats = document.getElementsByClassName("seat");
+    var selectedSeats = [];
+
+    for (var i = 0; i < seats.length; i++) {
+      var item = seats[i];
+
+      item.addEventListener("click", (event) => {
+        var price = document.getElementById("movie").value;
+
+        if (!event.target.classList.contains("occupied")) {
+          var selectedSeatIndex = Array.from(item.parentNode.children).indexOf(event.target);
+          var numTickets = parseInt(prompt("Enter the number of seats to be booked:", 1));
+          var seatsToBeSelected = [];
+
+          if (numTickets > 0) {
+            var row = event.target.parentNode;
+            var rowSeats = row.getElementsByClassName("seat");
+            var startSeatIndex = Math.max(0, selectedSeatIndex - Math.floor(numTickets / 2));
+            var endSeatIndex = Math.min(rowSeats.length, startSeatIndex + numTickets);
+
+            for (var j = startSeatIndex; j < endSeatIndex; j++) {
+              var seat = rowSeats[j];
+              if (!seat.classList.contains("occupied") && !seat.classList.contains("selected")) {
+                seat.classList.add("selected");
+                seatsToBeSelected.push(seat);
+              }
+            }
+          }
+
+          count = seatsToBeSelected.length;
+          var total = count * price;
+          document.getElementById("count").innerText = count;
+          document.getElementById("total").innerText = total;
+
+          selectedSeats = seatsToBeSelected;
+        }
+      });
+    }
+
+    // Confirm Button Click Event
+    document.getElementById("confirmButton").addEventListener("click", function () {
+      if (count === 0) {
+        alert("No seats selected. Please select seats before confirming.");
+      } else {
+        // Payment Processing Logic
+        var totalPrice = parseInt(document.getElementById("total").innerText);
+var paymentMethod = prompt("Enter Name on card:");
+var cardNumber = prompt("Enter Card Number (16 digits):");
+var cvv = prompt("Enter CVV:");
+
+// Validate card number and CVV
+var cardNumberRegex = /^\d{16}$/; // Regex to match exactly 16 digits
+var cvvRegex = /^\d{3}$/; // Regex to match exactly 3 digits
+
+if (!cardNumber.match(cardNumberRegex) || !cvv.match(cvvRegex)) {
+  alert("Invalid card details. Please enter valid card number and CVV.");
+} else {
+  alert(
+    "Seats Confirmed. Total Amount: $" +
+      totalPrice +
+      "\nName on card: " +
+      paymentMethod +
+      "\nCard Number: " +
+      cardNumber +
+      "\nCVV: " +
+      cvv
+  );
+}
+
+        // Reset selected seats
+        for (var i = 0; i < selectedSeats.length; i++) {
+          selectedSeats[i].classList.remove("selected");
+        }
+        selectedSeats = [];
+        count = 0;
+        document.getElementById("count").innerText = count;
+        document.getElementById("total").innerText = 0;
+      }
+    });
+  </script>
+</body>
+
+</html>
